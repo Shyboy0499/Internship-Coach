@@ -2,3 +2,6 @@
 *-workspace/
 *.skill
 *.zip
+
+# Eval run output
+evals/results/

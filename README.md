@@ -30,6 +30,14 @@ Mentors rarely get upset because an intern doesn't know something — interns ar
 /plugin install internship-coach@internship-coach
 ```
 
+### Any agent, with the skills CLI
+
+Installs into Claude Code and other agents that read Agent Skills (such as Cursor and Codex):
+
+```
+npx skills add Shyboy0499/internship-coach
+```
+
 ### Claude Code (as a plain skill folder)
 
 Copy `skills/internship-coach` into `~/.claude/skills/` (just for you) or into `.claude/skills/` inside a project (for everyone working on that project).
@@ -42,7 +50,7 @@ Zip the skill folder:
 cd skills && zip -r internship-coach.zip internship-coach
 ```
 
-Then in Claude, open **Settings → Capabilities**, find **Skills**, and upload the zip. Code execution needs to be enabled for skills to work.
+Then upload the zip in Claude's settings — see [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) for the current steps. Code execution needs to be enabled for skills to work.
 
 ### Claude Agent SDK
 
@@ -56,6 +64,16 @@ options = ClaudeAgentOptions(
     allowed_tools=["Skill", "Read"],
 )
 ```
+
+## Testing
+
+The `evals/` folder holds test cases for Claude Code's built-in eval runner. Each case is a realistic intern request with checks on the answer, and the runner compares answers with and without the skill:
+
+```
+claude plugin eval .
+```
+
+Add `--model haiku` (or `sonnet`, `opus`) to check the skill works across models.
 
 ## Repository layout
 
@@ -72,6 +90,9 @@ skills/
       expectations.md     # what's expected of interns and how to stand out
       role-skills.md      # what to prepare and stand-out extras, by field
       timeline.md         # what to do before day one through the last week
+    LICENSE.txt           # license copy that travels with the skill folder
+evals/                    # test cases for `claude plugin eval`
+LICENSE
 ```
 
 `SKILL.md` stays short and is loaded whenever the skill triggers. Claude reads the reference files only when a request needs them.

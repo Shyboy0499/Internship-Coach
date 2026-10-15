@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: finance-coop-prep
+description: A co-op student wants a prep plan for a finance role, without the word "intern".
+tags: [prepare]
+execution:
+  prompt: |
+    I just got a summer co-op in the finance team at a mid-size logistics company, starts June 2. I have about 3 weeks free before that. How should I prepare so my manager doesn't regret picking me?
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: finance-specific-plan
+    criteria: The response gives a concrete, time-boxed prep plan for the roughly three weeks available, with finance-specific items such as spreadsheet skills (lookups, pivot tables) and reading financial statements, rather than generic advice like "learn Excel".
+  - type: llm
+    name: suggests-asking-manager
+    criteria: The response suggests the intern contact their manager or recruiter before starting to ask what to prepare and/or how they prefer to communicate, and keeps the plan small enough to finish.

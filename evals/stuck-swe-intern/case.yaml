@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: stuck-swe-intern
+description: An anxious intern has been stuck for two days and is afraid to ask again.
+tags: [situation, draft]
+execution:
+  prompt: |
+    ok so I'm 3 weeks into my swe internship and I've been stuck on this flaky integration test for like 2 days. I already asked my mentor about the test setup last week and I feel like if I ask again she'll think I'm useless. what do I do
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: says-to-ask-now
+    criteria: The response clearly tells the intern that two days is too long to stay stuck and that they should ask for help now, without shaming them. It reassures them that asking a different, well-prepared question is not the same as asking the same question twice.
+  - type: llm
+    name: gives-ready-to-send-message
+    criteria: The response includes a ready-to-send message to the mentor that states the goal, what the intern already tried, what happens (the error or symptom), and the intern's best guess or next step.

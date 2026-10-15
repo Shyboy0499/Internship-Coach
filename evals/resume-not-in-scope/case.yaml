@@ -1,0 +1,18 @@
+schema_version: "1.0"
+name: resume-not-in-scope
+description: Near miss. Tailoring a resume to apply for an internship is not what this skill covers.
+tags: [trigger-boundary]
+execution:
+  prompt: |
+    Can you help me tailor my resume for a software engineering internship application at a fintech startup? Here's my current summary line: "CS junior with experience in Python, React and a hackathon win." The posting asks for TypeScript and REST APIs.
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: does-not-use-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    max: 0
+    arm: with-only
+  - type: llm
+    name: helps-with-resume
+    criteria: The response directly helps tailor the resume summary to the posting (for example by surfacing TypeScript and REST API experience if the user has it) rather than giving advice about succeeding during an internship.

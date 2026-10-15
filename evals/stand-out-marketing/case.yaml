@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: stand-out-marketing
+description: A mid-internship marketing intern asks what is expected and how to stand out.
+tags: [expectations]
+execution:
+  prompt: |
+    I'm a marketing intern, week 5 of 10. My project is going fine and my manager says I'm doing well, but there are 6 other interns and only a couple will get return offers. What's actually expected of me and what can I do to stand out?
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: baseline-before-extras
+    criteria: The response separates the baseline expectations every intern must meet from what makes an intern stand out, and makes clear that extras only count once the baseline and the assigned project are solid.
+  - type: llm
+    name: concrete-stand-out-moves
+    criteria: The response gives concrete, marketing-relevant ways to stand out (for example measuring impact with numbers or running a small measurable experiment) and recommends asking the manager directly what a return offer would require.

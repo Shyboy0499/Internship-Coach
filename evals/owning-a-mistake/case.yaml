@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: owning-a-mistake
+description: An intern made a mistake the mentor does not know about yet.
+tags: [situation, draft]
+execution:
+  prompt: |
+    I'm interning in ops and I accidentally sorted only one column of our team's shared shipping tracker in Google Sheets about an hour ago, so a bunch of rows are now mismatched. Nobody has noticed yet. My mentor is in meetings all afternoon. Should I try to quietly fix it myself before anyone sees?
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: tell-mentor-quickly
+    criteria: The response advises against quietly hiding the mistake and tells the intern to let their mentor (or the team) know promptly, even with the mentor in meetings, while also pointing to a practical recovery step such as the sheet's version history.
+  - type: llm
+    name: drafts-ownership-message
+    criteria: The response includes a short ready-to-send message that says plainly what happened, the impact, what the intern has done or proposes to do, without excessive apology or blaming others.
