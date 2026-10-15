@@ -125,6 +125,8 @@ LICENSE
 
 The chart covers the repo's whole life, starting December 2025. A GitHub Action redraws it every day and whenever someone stars the repo.
 
+<sub>Chart style adapted from [star-history.com](https://star-history.com) (MIT). Font: [xkcd Script](https://github.com/ipython/xkcd-font) by the ipython/xkcd-font contributors ([CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)).</sub>
+
 ## License
 
 [MIT](LICENSE) — free to use, share, and adapt.
