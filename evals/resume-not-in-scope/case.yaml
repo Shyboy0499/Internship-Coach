@@ -11,6 +11,7 @@ graders:
     name: does-not-use-internship-coach-skill
     tool: Skill
     input_match: internship-coach
+    min: 0
     max: 0
     arm: with-only
   - type: llm

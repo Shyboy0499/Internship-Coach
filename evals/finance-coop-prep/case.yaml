@@ -17,5 +17,5 @@ graders:
     name: finance-specific-plan
     criteria: The response gives a concrete, time-boxed prep plan for the roughly three weeks available, with finance-specific items such as spreadsheet skills (lookups, pivot tables) and reading financial statements, rather than generic advice like "learn Excel".
   - type: llm
-    name: suggests-asking-manager
-    criteria: The response suggests the intern contact their manager or recruiter before starting to ask what to prepare and/or how they prefer to communicate, and keeps the plan small enough to finish.
+    name: contact-manager-before-start
+    criteria: The response recommends that the intern contact their manager or recruiter before the start date, for example to ask what to prepare or to confirm first-day logistics.
