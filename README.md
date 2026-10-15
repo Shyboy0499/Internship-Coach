@@ -26,8 +26,8 @@ Mentors rarely get upset because an intern doesn't know something — interns ar
 ### Claude Code (as a plugin)
 
 ```
-/plugin marketplace add Shyboy0499/about_yomi
-/plugin install internship-coach@about-yomi
+/plugin marketplace add Shyboy0499/internship-coach
+/plugin install internship-coach@internship-coach
 ```
 
 ### Claude Code (as a plain skill folder)
