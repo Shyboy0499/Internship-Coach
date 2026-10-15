@@ -18,4 +18,4 @@ graders:
     criteria: The response advises against quietly hiding the mistake and tells the intern to let their mentor (or the team) know promptly, even with the mentor in meetings, while also pointing to a practical recovery step such as the sheet's version history.
   - type: llm
     name: drafts-ownership-message
-    criteria: The response includes a short ready-to-send message that says plainly what happened, the impact, what the intern has done or proposes to do, without excessive apology or blaming others.
+    criteria: The response includes a short ready-to-send message to the mentor that says plainly what happened and what it affected, and what the intern has done or proposes to do about it. The message owns the mistake without excessive apology or blaming others.

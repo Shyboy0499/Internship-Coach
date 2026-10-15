@@ -73,7 +73,7 @@ The `evals/` folder holds test cases for Claude Code's built-in eval runner. Eac
 claude plugin eval .
 ```
 
-Add `--model haiku` (or `sonnet`, `opus`) to check the skill works across models.
+Add `--model haiku` (or `sonnet`, `opus`) to check the skill works across models. The answers are graded by another model; `--judge-model sonnet` grades more reliably than the default.
 
 ## Repository layout
 

@@ -15,7 +15,7 @@ graders:
     arm: with-only
   - type: llm
     name: says-to-ask-now
-    criteria: The response clearly tells the intern that two days is too long to stay stuck and that they should ask for help now, without shaming them. It reassures them that asking a different, well-prepared question is not the same as asking the same question twice.
+    criteria: The response encourages the intern to ask for help soon (today, after at most a short, bounded amount of preparation) rather than staying stuck longer, without shaming them. It reassures them that asking a new, well-prepared question is fine even though they asked about something else before.
   - type: llm
     name: gives-ready-to-send-message
     criteria: The response includes a ready-to-send message to the mentor that states the goal, what the intern already tried, what happens (the error or symptom), and the intern's best guess or next step.
