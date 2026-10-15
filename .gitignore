@@ -1,0 +1,4 @@
+# Skill eval workspaces and packaged skills
+*-workspace/
+*.skill
+*.zip
