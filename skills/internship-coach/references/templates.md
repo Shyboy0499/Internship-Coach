@@ -21,6 +21,8 @@ Starting points, not scripts. Adapt each one to the intern's voice, the channel,
 - Handoff doc
 - Return-offer conversation
 - End-of-internship thank-you
+- Resume bullets from the internship
+- Interview stories (STAR)
 - Pull request description (software interns)
 
 ---
@@ -198,6 +200,36 @@ I've really enjoyed working on [team/project] and I'd love to come back after gr
 Hi [Name] — as my internship wraps up, I wanted to say thank you. [One specific thing they did and what it meant — e.g. "Walking me through the deploy pipeline in week 2 saved me days."] I learned a lot about [area], and I'd love to stay in touch.
 [If appropriate:] Would you be comfortable being a reference for me in the future?
 ```
+
+## Resume bullets from the internship
+
+Build these from the work log or notebook — real outcomes only, never invented numbers. One line each: **action verb + what you did + measurable result**, with the tools named where they matter.
+
+Give finished bullets first, using only the facts the intern provided, so they can paste them straight in. Then, separately, point out where a real number they could look up would make a bullet stronger.
+
+```
+- Built [what] using [tools], [result — e.g. cutting weekly report prep from 3 hours to 10 minutes].
+- Analyzed [data or problem] and presented [finding] to [audience], informing [decision].
+- Automated [manual process], saving the team [time] per [week/month].
+- Shipped [feature or fix] used by [users/teams], [effect — e.g. reducing support tickets by 20%].
+```
+
+If the real numbers are confidential, use relative terms ("cut processing time by about 90%", "3x faster") and check with the manager what's fine to share. Never include customer data, unreleased figures, or internal project code names without permission.
+
+## Interview stories (STAR)
+
+Prepare three to five stories from the internship for future interviews and the return-offer conversation. Good candidates: a project win, a mistake and how you recovered, acting on tough feedback, getting unstuck on something hard, working across a team.
+
+```
+Title: [short name for the story]
+Situation: [the context, in one or two sentences]
+Task: [what you were responsible for]
+Action: [what *you* did — specific steps, decisions, and why]
+Result: [the outcome, with a number if possible]
+Learned: [what you'd do the same or differently next time]
+```
+
+Keep each story to about two minutes spoken. "I" for your own actions, "we" only for genuinely shared work.
 
 ## Pull request description (software interns)
 

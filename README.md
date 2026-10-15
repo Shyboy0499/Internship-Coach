@@ -8,9 +8,10 @@ Mentors rarely get upset because an intern doesn't know something — interns ar
 
 - **Meeting and exceeding expectations** — what every intern is expected to do, a "meets vs. stands out" self-check, and extra skills beyond the job description that make an intern stand out.
 - **Preparing** — what to brush up on before day one, by role (software, data, ML, product, design, marketing, finance, hardware, research, and more).
-- **Working with a mentor** — when and how to ask questions, getting unstuck, status updates, 1:1s, taking feedback, owning mistakes, handling too much or too little work.
+- **Working with a mentor** — when and how to ask questions, getting unstuck, status updates, 1:1s, taking feedback, owning mistakes, handling too much or too little work, and making a remote internship work. Claude also spots common intern patterns (the silent struggler, the over-apologizer, the private perfectionist) and coaches the habit behind them.
+- **Keeping track** — with your OK, Claude keeps a short internship notebook (goals, how your mentor likes to communicate, feedback, a work log) so it remembers between conversations, plus a weekly check-in that writes your work-log entry and your update to your mentor.
 - **Drafting messages** — help requests, status updates, 1:1 agendas, delay warnings, apologies, feedback asks, PR descriptions.
-- **Finishing strong** — midpoint self-review, final presentation, handoff doc, return-offer conversation, thank-yous.
+- **Finishing strong** — midpoint self-review, final presentation, handoff doc, return-offer conversation, thank-yous, and turning the internship into resume bullets and interview stories.
 - **Knowing when it isn't about pleasing the mentor** — harassment, unsafe or unethical requests, or unfair treatment get routed to the right people instead.
 
 ### Example prompts
@@ -20,8 +21,14 @@ Mentors rarely get upset because an intern doesn't know something — interns ar
 - "Help me write a message telling my manager I'm going to miss Friday's deadline."
 - "My midpoint review is next week — can you help me write a self-review?"
 - "What do interns who get return offers do differently? I want to stand out."
+- "It's Friday — let's do my weekly check-in."
+- "My internship just ended. Turn what I did into resume bullets."
 
 ## Install
+
+### Claude desktop app (as a plugin)
+
+Click **+** next to the chat box, choose **Add plugins…**, pick **Add marketplace from GitHub**, enter `Shyboy0499/internship-coach`, then install **internship-coach**.
 
 ### Claude Code (as a plugin)
 
@@ -90,6 +97,7 @@ skills/
       expectations.md     # what's expected of interns and how to stand out
       role-skills.md      # what to prepare and stand-out extras, by field
       timeline.md         # what to do before day one through the last week
+      notebook.md         # the internship notebook and the weekly check-in
     LICENSE.txt           # license copy that travels with the skill folder
 evals/                    # test cases for `claude plugin eval`
 LICENSE

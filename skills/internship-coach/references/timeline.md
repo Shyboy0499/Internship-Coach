@@ -20,7 +20,7 @@ What to do when, from before day one to after the last day. This assumes a typic
 - **Learn the company and team:** product, customers, recent news, what your team owns.
 - **Do focused skill prep** — see `role-skills.md`. Three to five things, not twenty.
 - **Set two or three personal goals:** one skill to grow, one relationship goal (for example, meet everyone on the team), one thing to deliver.
-- **Set up your notes doc and work log** so they're ready on day one.
+- **Set up your notes doc and work log** so they're ready on day one — or let Claude keep an internship notebook for you (see `notebook.md`).
 - **Rest.** Arriving rested matters more than one more tutorial.
 
 ## Week one
@@ -37,7 +37,7 @@ What to do when, from before day one to after the last day. This assumes a typic
 
 ## Weeks two to four
 
-- **Settle into an update rhythm** with your mentor (see the mentor playbook, section 5).
+- **Settle into an update rhythm** with your mentor (see the mentor playbook, section 6).
 - **Put the project scope and milestones in writing** — a short plan your mentor approves.
 - **Deliver something early and incrementally** rather than saving it all for a big reveal.
 - **Have one or two coffee chats a week** with people outside your immediate work.
@@ -62,5 +62,5 @@ What to do when, from before day one to after the last day. This assumes a typic
 
 ## After the internship
 
-- **Update your resume** with concrete outcomes and numbers from your work log, without disclosing anything confidential.
+- **Turn the internship into career assets:** resume bullets and three to five interview stories, built from your work log (templates in `templates.md`), without disclosing anything confidential.
 - **Stay in touch.** A short, friendly note to your mentor a few months later keeps the relationship alive.

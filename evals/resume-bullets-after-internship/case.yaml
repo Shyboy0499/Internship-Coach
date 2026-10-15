@@ -1,0 +1,15 @@
+schema_version: "1.0"
+name: resume-bullets-after-internship
+description: Turning a finished internship into resume bullets is in scope, unlike tailoring a resume for an application.
+tags: [finish-strong]
+execution:
+  prompt: |
+    My data analytics internship just ended. Can you turn this into resume bullets? I built a Looker dashboard for the support team that they now use every morning, automated a weekly churn report in Python that used to take my manager about 3 hours by hand, and presented an analysis of refund requests to the ops leads that they used to change the refund policy.
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: llm
+    name: action-result-bullets
+    criteria: The response gives resume bullets that each start with an action verb and state a concrete result or impact drawn from what the user described (for example the roughly 3 hours saved, daily use by the support team, or the refund policy change), without inventing numbers the user did not give.
+  - type: llm
+    name: confidentiality-or-next-step
+    criteria: The response either reminds the user to avoid confidential or internal figures, or helps them strengthen the bullets with real numbers they can share (for example by asking for or suggesting where to find them), or both.

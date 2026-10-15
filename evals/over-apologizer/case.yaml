@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: over-apologizer
+description: The intern's draft message is full of apologies; expect a calmer rewrite and a light touch on the habit.
+tags: [draft, pattern]
+execution:
+  prompt: |
+    can you check this message before I send it to my mentor? "Hi Sam, so sorry to bother you again, I know you're super busy and I'm really sorry, this is probably a dumb question but I'm sorry I can't figure out why the dashboard numbers don't match the export. Sorry!! No rush at all, sorry again"
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: calm-complete-rewrite
+    criteria: The response gives a rewritten message with at most one brief apology or none, that states the actual problem clearly and adds the missing context a mentor needs to help (such as what was checked, which numbers differ, or the intern's guess), or asks the intern for those details.
+  - type: llm
+    name: names-the-habit-kindly
+    criteria: The response kindly points out that repeated apologizing undercuts the message and suggests a better habit (for example thanking instead of apologizing), without shaming the intern.

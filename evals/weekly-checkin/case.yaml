@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: weekly-checkin
+description: The intern asks for a weekly check-in; expect a work-log entry, an update for the mentor, and a next-week focus.
+tags: [keep-track, draft]
+execution:
+  prompt: |
+    it's friday, can you help me do my weekly check-in? this week I fixed the date bug in the billing export, started on the CSV import feature but got blocked waiting on access to the staging database, and my mentor said my PR descriptions are too short. she likes updates in our team slack thread.
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: log-and-update
+    criteria: The response produces both a short work-log entry for the week and a ready-to-post weekly update for the mentor's Slack thread, and the update calls out the staging database access blocker and what the intern needs to get unblocked.
+  - type: llm
+    name: acts-on-feedback
+    criteria: The response turns the mentor's feedback about short PR descriptions into a concrete improvement for next week (for example a PR description structure or checklist), rather than ignoring it.

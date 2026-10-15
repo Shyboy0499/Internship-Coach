@@ -6,16 +6,18 @@ How to work with a mentor or manager so they're glad to have you. Read the secti
 
 1. What mentors actually expect
 2. What frustrates mentors, and the fix
-3. Asking good questions
-4. The getting-unstuck ladder
-5. Status updates and flagging risks
-6. Making 1:1s useful
-7. Feedback: getting it and using it
-8. Mistakes
-9. Workload: too little, too much, unclear
-10. Reading and adapting to your mentor
-11. When the relationship isn't working
-12. When it's not yours to fix
+3. Intern patterns to recognize
+4. Asking good questions
+5. The getting-unstuck ladder
+6. Status updates and flagging risks
+7. Making 1:1s useful
+8. Feedback: getting it and using it
+9. Mistakes
+10. Workload: too little, too much, unclear
+11. Reading and adapting to your mentor
+12. Remote and hybrid internships
+13. When the relationship isn't working
+14. When it's not yours to fix
 
 ---
 
@@ -53,7 +55,23 @@ A reframe that helps anxious interns: the mentor's own performance is partly jud
 | Expanding scope or rewriting things unasked | Creates review burden and risk | Propose first, then do it if they agree |
 | Treating the mentor as the only resource | Makes them a bottleneck | Use docs, search, teammates, and other interns too |
 
-## 3. Asking good questions
+## 3. Intern patterns to recognize
+
+How an intern describes their situation often reveals a familiar pattern. Spotting it lets you coach the habit behind the problem, not just the problem in front of you. Name the pattern gently and only when it helps the intern see what to change — describe the behavior, never label the person.
+
+| Pattern | What it sounds like | What's going on | What to coach |
+|---|---|---|---|
+| **Silent struggler** | "I've been stuck for days" · "I don't want to bother them" | Fear of looking incompetent | Timebox, then ask with the question formula; silence costs the mentor more than a question |
+| **Constant asker** | Asks before trying anything; many small messages a day | Hasn't built the habit of self-serving yet | The getting-unstuck ladder, a notes doc, batching; ask "what would you try first?" |
+| **Over-apologizer** | "Sorry to bother you, sorry if this is dumb…" in every message | Anxiety; apologizing to pre-empt judgment | One apology for real mistakes, then ownership; swap "sorry" for "thanks"; calm, direct messages read as competence |
+| **Yes to everything** | Accepts every task and deadline, then misses some | Wants to look capable | Repeat tasks back, give realistic estimates, ask which matters most |
+| **Private perfectionist** | Polishes for weeks before showing anything | Fears showing rough work | Share early: "Is this the right direction?" at 20% done, not 100% |
+| **Scope creeper** | "While I was there I also rewrote…" | Enthusiasm without checking in | Propose first, then do it once they agree |
+| **Ghost** | The mentor learns their status only by asking | Assumes no news is fine | A regular update rhythm, flagging risks early |
+| **Comparer** | "The other interns are all smarter than me" | Imposter syndrome | Compare against their own week-one self and the agreed goals; ask the mentor directly how they're doing |
+| **Lone wolf** | Never asks teammates; only ever the mentor, or no one | Doesn't know who else can help | Peers and docs are legitimate rungs on the ladder; build relationships beyond the mentor |
+
+## 4. Asking good questions
 
 ### When to ask
 
@@ -80,7 +98,7 @@ Ending with a guess turns the mentor's job from "figure this out from scratch" i
 - Watch out for the "XY problem": ask about what you're actually trying to achieve, not only about the workaround you got stuck on.
 - Once you're unblocked, now and then ask "How would you have figured that out?" It teaches you to help yourself next time, and mentors love the question.
 
-## 4. The getting-unstuck ladder
+## 5. The getting-unstuck ladder
 
 Climb in order, without camping on any one rung:
 
@@ -93,7 +111,7 @@ Climb in order, without camping on any one rung:
 
 When you get the answer, write it in your notes doc.
 
-## 5. Status updates and flagging risks
+## 6. Status updates and flagging risks
 
 **Cadence.** Agree on one with your mentor. A sensible default: a short end-of-day message for the first few weeks, then a weekly summary once you're settled.
 
@@ -103,7 +121,7 @@ When you get the answer, write it in your notes doc.
 
 **Estimating.** Interns almost always underestimate. For unfamiliar work, roughly double your first instinct, and say how confident you are.
 
-## 6. Making 1:1s useful
+## 7. Making 1:1s useful
 
 Keep a shared running doc so the history builds up, and bring a short agenda:
 
@@ -125,7 +143,7 @@ Keep a shared running doc so the history builds up, and bring a short agenda:
 
 **After the 1:1:** write down the action items, do them, and report back.
 
-## 7. Feedback: getting it and using it
+## 8. Feedback: getting it and using it
 
 **Ask for it specifically.** "Was my analysis doc at the right level of detail for your manager?" gets a far better answer than "Any feedback?" Ask early — around week 2 or 3 — not only at the midpoint.
 
@@ -140,7 +158,7 @@ Keep a shared running doc so the history builds up, and bring a short agenda:
 
 Critical feedback stings; that's normal. Feedback means they're investing in you. The interns who get no feedback are usually the ones mentors have given up on.
 
-## 8. Mistakes
+## 9. Mistakes
 
 Everyone breaks something eventually. What mentors judge is speed and ownership.
 
@@ -150,7 +168,7 @@ Everyone breaks something eventually. What mentors judge is speed and ownership.
 4. **One clear apology,** then ownership and a plan. Don't over-apologize, and don't blame tools or other people.
 5. **Follow through** on the prevention step, and mention later that you did.
 
-## 9. Workload: too little, too much, unclear
+## 10. Workload: too little, too much, unclear
 
 **Too little work.** Say so — busy mentors often don't notice. Come with a proposal: "I've finished X. I could do Y or Z next, or is there something more useful?" In the meantime: fix the docs you found confusing, add tests, read code or papers related to your project, and ask to sit in on meetings.
 
@@ -158,7 +176,7 @@ Everyone breaks something eventually. What mentors judge is speed and ownership.
 
 **Unclear task.** Repeat it back, write a short plan, and get a thumbs-up before going deep.
 
-## 10. Reading and adapting to your mentor
+## 11. Reading and adapting to your mentor
 
 Every mentor works differently. Notice:
 
@@ -170,15 +188,26 @@ If they're unsure whether their mentor is annoyed, the intern can simply ask in 
 
 **If the mentor is rarely available:** lock in a fixed recurring 1:1, find a second point of contact (onboarding buddy or teammate), lean harder on docs, and if it's blocking progress for more than a week or so, tell the manager or program coordinator — framed as asking for help, not complaining.
 
-## 11. When the relationship isn't working
+## 12. Remote and hybrid internships
+
+Remote interns face the same expectations with less visibility: nobody sees you working, so written communication carries more weight.
+
+- **Over-communicate status.** Written updates matter more when nobody walks past your desk. Share progress before anyone has to ask.
+- **Be visible on purpose.** Follow the team's camera norms, say at least one useful thing in meetings, and post wins and things you learned in the team channel.
+- **Make async messages complete.** The whole question in one message (never a bare "hi"), threaded replies, and a status that shows when you're away.
+- **Ask for face time.** A recurring 1:1, occasional pairing or screen-sharing, and virtual coffee chats with teammates. Ten minutes on a call often beats forty messages when you're stuck.
+- **Respect time zones.** Learn the overlap hours, put questions in before your mentor's day ends, and say when you'll be offline.
+- **Keep a dependable setup.** Stable internet, a quiet space, and being reachable during agreed hours.
+
+## 13. When the relationship isn't working
 
 Sometimes styles just clash.
 
-1. **Self-check first.** Is there feedback you haven't acted on? A habit from section 2 that applies?
+1. **Self-check first.** Is there feedback you haven't acted on? A habit from section 2 or a pattern from section 3 that applies?
 2. **Have a direct, low-drama conversation.** "I want to make sure I'm being useful to you. What could I be doing differently?"
 3. **If it persists,** talk to the program coordinator, the mentor's manager, or your recruiter, framed as wanting to succeed: "I'd like some advice on working more effectively with my mentor."
 
-## 12. When it's not yours to fix
+## 14. When it's not yours to fix
 
 Everything above is about being a good intern. This section is the exception. If the intern describes:
 

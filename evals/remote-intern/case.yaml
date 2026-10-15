@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: remote-intern
+description: A fully remote intern in a different time zone feels invisible.
+tags: [situation, remote]
+execution:
+  prompt: |
+    My internship is fully remote and my manager is 6 hours ahead of me. We only overlap for about two hours a day. I feel invisible and I'm not sure anyone on the team knows what I'm actually doing. How do I fix this without being annoying?
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: remote-specific-advice
+    criteria: The response gives remote-specific advice, including regular written updates the manager can read asynchronously, deliberate visibility to the wider team (for example sharing progress or wins in a team channel), and making good use of the two-hour overlap.
+  - type: llm
+    name: concrete-next-step
+    criteria: The response includes a concrete next step the intern can take this week, such as a ready-to-send message proposing an update rhythm or a recurring check-in during the overlap hours.

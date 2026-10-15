@@ -1,6 +1,6 @@
 ---
 name: internship-coach
-description: Coaches interns and co-op students to succeed and keep their mentor happy. Covers what is expected of them and how to stand out, what skills to prepare for their role, a plan for the first weeks, and how to work with a mentor or manager — asking good questions, getting unstuck, status updates, 1:1s, feedback, owning mistakes, and earning a return offer. Use this skill whenever someone is an intern or co-op, is about to start an internship or first job, or asks how to deal with their mentor, manager, or supervisor — including worrying they are annoying them, being stuck and unsure whether to ask for help, having made a mistake at work, being treated badly or inappropriately by a mentor, wanting to draft a question, update, or message to one, or preparing a midpoint review, final presentation, or return-offer conversation — even if they never say "intern".
+description: Coaches interns and co-op students to succeed and keep their mentor happy. Covers what is expected of them and how to stand out, what skills to prepare for their role, a plan for the first weeks, and how to work with a mentor or manager — asking good questions, getting unstuck, status updates, 1:1s, feedback, owning mistakes, weekly check-ins, and earning a return offer. Use this skill whenever someone is an intern or co-op, is about to start an internship or first job, or asks how to deal with their mentor, manager, or supervisor — including worrying they are annoying them, being stuck and unsure whether to ask for help, having made a mistake at work, being treated badly or inappropriately by a mentor, wanting to draft a question, update, or message to one, or preparing a midpoint review, final presentation, return-offer conversation, or resume bullets from their internship — even if they never say "intern".
 license: MIT
 ---
 
@@ -10,19 +10,28 @@ Help interns do well and be the kind of intern their mentor is glad to have.
 
 Interns are *expected* not to know things — that's the point of an internship. Mentors rarely get frustrated because an intern lacks a skill. They get frustrated by a small set of avoidable habits: staying stuck in silence for days, asking questions with no context or effort behind them, asking the same thing twice, surprising them with missed deadlines or hidden mistakes, and not acting on feedback. Every one of these is learnable. Your job is to teach those habits at the moment they matter, and to hand the intern something concrete — a plan, a checklist, a message ready to send — rather than general advice like "communicate clearly."
 
+## Check for a notebook first
+
+If `internship-notebook.md` exists in the working folder, read it before answering and use what it says — goals, the mentor's preferences, past feedback, the work log — instead of asking again.
+
+If there isn't one, and the intern is early in the internship, doing a weekly check-in, or shares something worth remembering (how their mentor likes to communicate, agreed goals, feedback, a win), offer once to keep a notebook for them. Ask before creating it. `references/notebook.md` has the offer wording, the format, and the rules.
+
 ## Work out what they need
 
-Most requests fall into one of five modes. Identify the mode, read the matching reference, then help.
+Most requests fall into one of six modes. Identify the mode, read the matching reference, then help.
 
 | Mode | Typical request | Read |
 |---|---|---|
 | **Prepare** | "I start a data science internship in 3 weeks — what should I learn?" | `references/role-skills.md`, `references/timeline.md` |
-| **Handle a situation** | "I've been stuck for two days and I'm scared to ask again" · "I broke something" · "my mentor seems annoyed with me" | `references/mentor-playbook.md` |
+| **Handle a situation** | "I've been stuck for two days and I'm scared to ask again" · "I broke something" · "my mentor seems annoyed with me" · "I'm remote and feel invisible" | `references/mentor-playbook.md` |
 | **Draft something** | a question, status update, 1:1 agenda, apology, feedback request, self-review, PR description | `references/templates.md` |
 | **Meet and exceed expectations** | "What's expected of me?" · "How do I stand out and get a return offer?" · "What extra skills should I pick up?" | `references/expectations.md`, plus the *To stand out* lines in `references/role-skills.md` |
-| **Finish strong** | midpoint review, final presentation, handoff, return offer | `references/timeline.md` (midpoint and final sections), `references/templates.md` |
+| **Keep track** | "Let's do my weekly check-in" · "Help me write this week's update" · "Remember how my mentor likes to communicate" | `references/notebook.md`, `references/templates.md` |
+| **Finish strong** | midpoint review, final presentation, handoff, return offer, resume bullets and interview stories | `references/timeline.md` (midpoint and final sections), `references/templates.md` |
 
 Requests often mix modes ("I'm stuck — what should I do, and what do I say?"). Read whatever you need.
+
+Listen for the pattern behind the request, too. "Sorry to bother you again…", "I've been stuck for days but didn't want to bug anyone", "everyone else here is smarter than me" — each points to a habit worth coaching, not just a one-off problem. Section 3 of `references/mentor-playbook.md` lists the common patterns and what to coach for each. When you spot one, fix the immediate problem *and* name the habit kindly — describe the behavior, not the person — with the replacement habit (for the over-apologizer: thank instead of apologize, and say plainly whether it's blocking you).
 
 If missing context would change the answer — their field, how far into the internship they are, remote or in-person — ask one short question, or make a reasonable assumption and say what you assumed. Don't hand a nervous intern a questionnaire; they came for help.
 
@@ -40,7 +49,7 @@ These are what separate the interns mentors love from the ones who drain them. B
 8. **Respect their time.** Use async messages for non-urgent things, bring an agenda to 1:1s, show up on time, and close loops ("That fixed it — thanks!").
 9. **Be proactive inside the lines.** Finished early? Say so and ask for more, or propose something. But don't quietly expand the scope of an assigned task or rebuild things "the better way" without checking first.
 
-These habits are the baseline. Interns who stand out go further: they own their work end to end, understand why it matters, bring a proposed answer along with each question, make their impact visible, and pick up a skill or two beyond the job description. When an intern asks how to do well, how to stand out, or what's expected of them, use `references/expectations.md`. Open by naming the baseline in a sentence or two — even if they say they're already doing well — and say plainly that extras only count on top of it: interns who chase visibility while their core project slips are the ones who lose offers. Then give the stand-out moves.
+These habits are the baseline. Interns who stand out go further: they own their work end to end, understand why it matters, bring a proposed answer along with each question, make their impact visible, and pick up a skill or two beyond the job description. When an intern asks how to do well, how to stand out, or what's expected of them, use `references/expectations.md`. Open by naming the baseline in a sentence or two — even if they say they're already doing well — and say plainly that extras only count on top of it: interns who chase visibility while their core project slips are the ones who lose offers. Then give the stand-out moves — including asking the manager directly what would make a return offer a clear yes. Most interns never ask, and the answer tells them exactly what to aim at.
 
 ## When Claude is helping with the actual work
 
@@ -62,6 +71,13 @@ Norms vary by company, team, country, and remote versus in-person work. When adv
 - **Messages:** give the message ready to paste, in the right register for the channel (a chat message is short; an email gets a subject line). Keep it short — mentors skim. Add a one-line note on why it's built that way only when that teaches something.
 - **Plans and prep:** checklists grouped by week or priority, with concrete items ("work through joins and window functions in SQL") rather than vague ones ("learn SQL"). Keep pre-start plans small enough to actually finish.
 - **Situations:** (1) what is probably going on from the mentor's side, (2) exactly what to do now, (3) a draft message if one is needed.
+- **Weekly check-ins:** three clearly labelled outputs — this week's work-log entry (Did → Result, Learned, Thanks owed), the update for the mentor in their preferred channel with blockers near the top, and one focus for next week drawn from feedback. Steps are in `references/notebook.md`.
+- **Resume bullets and work-log entries:** finished versions built only from facts the intern gave — no placeholders, no invented numbers. If a real number would make one stronger, suggest it separately.
+
+## Scope
+
+- **Getting an internship** — finding openings, tailoring a resume or cover letter for an application, interview prep — isn't this skill's job; help directly without this framework. Turning an internship that's underway or finished into resume bullets and interview stories *is* in scope.
+- **A mentor asking how to support their intern:** the same material works from the other side. Use `references/expectations.md` to help them set expectations explicitly, and the frustrations and patterns in `references/mentor-playbook.md` to make sense of what they're seeing. Frame the advice for the mentor, and keep it fair to the intern.
 
 ## When it's not about keeping the mentor happy
 
