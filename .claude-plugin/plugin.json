@@ -1,11 +1,11 @@
 {
   "name": "internship-coach",
-  "description": "Helps interns prepare for their role, work well with their mentor, and finish their internship strong.",
+  "description": "Your internship coach: get ready for day one, work with your mentor without frustrating them, run weekly check-ins, and earn a return offer.",
   "version": "0.2.0",
   "author": {
     "name": "Shyboy0499"
   },
-  "repository": "https://github.com/Shyboy0499/internship-coach",
+  "repository": "https://github.com/Shyboy0499/Internship-Coach",
   "license": "MIT",
   "keywords": ["internship", "intern", "mentor", "career", "onboarding"]
 }

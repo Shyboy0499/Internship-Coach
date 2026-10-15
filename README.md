@@ -1,8 +1,13 @@
 # Internship Coach
 
-An [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that helps interns succeed: prepare the right skills for their role, work with their mentor without frustrating them, and finish strong.
+**An [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that turns Claude into your internship coach** — get ready for day one, work with your mentor without frustrating them, and finish with a return offer.
 
-Mentors rarely get upset because an intern doesn't know something — interns aren't supposed to. They get frustrated by habits like going silent when stuck, asking questions with no context, repeating questions, or hiding mistakes. This skill teaches Claude to coach interns out of those habits and to hand them concrete help: plans, checklists, and messages ready to send.
+[![GitHub stars](https://img.shields.io/github/stars/Shyboy0499/Internship-Coach?style=social)](https://github.com/Shyboy0499/Internship-Coach/stargazers)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+Interns aren't expected to know everything — that's the point of an internship. What wears mentors down is a handful of habits: going quiet when stuck, asking questions with no context, asking the same thing twice, hiding mistakes. Internship Coach helps Claude spot those habits as they happen and coach the better one, and it always hands the intern something concrete: a plan, a checklist, or a message ready to send. With your OK, it also keeps a short notebook, so it remembers your goals, your mentor's preferences, and your progress from week to week.
+
+It works in Claude Code, the Claude apps, and the Agent SDK, as well as other agents that read Agent Skills.
 
 ## What it helps with
 
@@ -28,12 +33,12 @@ Mentors rarely get upset because an intern doesn't know something — interns ar
 
 ### Claude desktop app (as a plugin)
 
-Click **+** next to the chat box, choose **Add plugins…**, pick **Add marketplace from GitHub**, enter `Shyboy0499/internship-coach`, then install **internship-coach**.
+Click **+** next to the chat box, choose **Add plugins…**, pick **Add marketplace from GitHub**, enter `Shyboy0499/Internship-Coach`, then install **internship-coach**.
 
 ### Claude Code (as a plugin)
 
 ```
-/plugin marketplace add Shyboy0499/internship-coach
+/plugin marketplace add Shyboy0499/Internship-Coach
 /plugin install internship-coach@internship-coach
 ```
 
@@ -42,7 +47,7 @@ Click **+** next to the chat box, choose **Add plugins…**, pick **Add marketpl
 Installs into Claude Code and other agents that read Agent Skills (such as Cursor and Codex):
 
 ```
-npx skills add Shyboy0499/internship-coach
+npx skills add Shyboy0499/Internship-Coach
 ```
 
 ### Claude Code (as a plain skill folder)
@@ -104,6 +109,16 @@ LICENSE
 ```
 
 `SKILL.md` stays short and is loaded whenever the skill triggers. Claude reads the reference files only when a request needs them.
+
+## Star History
+
+<a href="https://star-history.com/#Shyboy0499/Internship-Coach&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Shyboy0499/Internship-Coach&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Shyboy0499/Internship-Coach&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Shyboy0499/Internship-Coach&type=Date" />
+ </picture>
+</a>
 
 ## License
 

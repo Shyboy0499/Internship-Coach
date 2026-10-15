@@ -1,6 +1,6 @@
 {
   "name": "internship-coach",
-  "description": "Agent skills by Shyboy0499 — starting with internship-coach, a guide for interns and their mentors.",
+  "description": "Agent skills by Shyboy0499, starting with Internship Coach: a coach for interns that teaches the habits mentors value.",
   "owner": {
     "name": "Shyboy0499"
   },
@@ -8,7 +8,7 @@
     {
       "name": "internship-coach",
       "source": "./",
-      "description": "Helps interns prepare for their role, work well with their mentor, and finish their internship strong."
+      "description": "Your internship coach: get ready for day one, work with your mentor without frustrating them, run weekly check-ins, and earn a return offer."
     }
   ]
 }
