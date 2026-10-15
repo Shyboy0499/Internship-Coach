@@ -75,3 +75,7 @@ skills/
 ```
 
 `SKILL.md` stays short and is loaded whenever the skill triggers. Claude reads the reference files only when a request needs them.
+
+## License
+
+[MIT](LICENSE) — free to use, share, and adapt.

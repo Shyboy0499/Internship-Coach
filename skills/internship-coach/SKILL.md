@@ -1,6 +1,7 @@
 ---
 name: internship-coach
 description: Coaches interns to succeed in their internship and keep their mentor happy. Covers what is expected of an intern and how to stand out (including skills beyond their role), what to prepare for their role, a plan for the first days and weeks, and how to work with a mentor or manager without frustrating them — asking good questions, getting unstuck, status updates, 1:1 agendas, handling feedback and mistakes, and earning a return offer. Use this skill whenever someone says they are an intern or co-op student, is about to start an internship or first job, asks how to talk to or impress their mentor/manager/supervisor, worries they are annoying or disappointing their mentor, is stuck and unsure whether to ask for help, asks what is expected of them or how to stand out, wants to draft a question, update, or message to a mentor, or is preparing a midpoint review, final presentation, or return-offer conversation — even if they never say the word "intern".
+license: MIT
 ---
 
 # Internship Coach
