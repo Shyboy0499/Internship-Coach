@@ -191,11 +191,18 @@ def tick_step(stop, count):
     return step
 
 
-def y_ticks(top, count=5):
-    """d3 linear ticks on [0, top], keeping whole numbers only (stars are whole)."""
-    step = tick_step(top, count)
-    ticks = [round(i * step, 10) for i in range(int(top / step + 1e-9) + 1)]
-    return [int(t) for t in ticks if float(t).is_integer()]
+def y_axis(total, min_top=50, max_ticks=5):
+    """Star-count axis: (top, ticks), stepping by 10 or 20 stars while the repo
+    is small, then by larger round numbers, so a few stars stay a small bump
+    instead of filling the chart."""
+    steps = [10, 20]
+    magnitude = 10
+    while steps[-1] * max_ticks < total:
+        steps += [5 * magnitude, 10 * magnitude, 20 * magnitude]
+        magnitude *= 10
+    step = next(s for s in steps if s * max_ticks >= total)
+    top = max(min_top, -(-total // step) * step)
+    return top, list(range(0, top + 1, step))
 
 
 def format_number(n, unit):
@@ -321,7 +328,7 @@ def render(repo, points, theme_name, font_url, avatar_url):
     stroke = t["stroke"]
     start, end = points[0][0], points[-1][0]
     total = points[-1][1]
-    top = max(total, 1)
+    top, star_ticks = y_axis(total)
     chart_w = WIDTH - MARGIN["left"] - MARGIN["right"]
     chart_h = HEIGHT - MARGIN["top"] - MARGIN["bottom"]
     span = max((end - start).days, 1)
@@ -396,7 +403,7 @@ def render(repo, points, theme_name, font_url, avatar_url):
     add(f'<path d="M-1,{chart_h + 0.5}H0.5V0.5H-1" filter="url(#xkcdify)" '
         f'style="stroke: {stroke};"/>')
     unit = None
-    for value in y_ticks(top):
+    for value in star_ticks:
         yy = y(value) + 0.5
         add(f'<line x2="-1" y1="{yy:.1f}" y2="{yy:.1f}" stroke="{stroke}"/>')
         if value == 0:
