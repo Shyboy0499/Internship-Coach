@@ -1,6 +1,6 @@
 ---
 name: internship-coach
-description: Coaches interns to succeed in their internship and keep their mentor happy. Covers what skills to prepare for their role, a plan for the first days and weeks, and how to work with a mentor or manager without frustrating them — asking good questions, getting unstuck, status updates, 1:1 agendas, handling feedback and mistakes, and earning a return offer. Use this skill whenever someone says they are an intern or co-op student, is about to start an internship or first job, asks how to talk to or impress their mentor/manager/supervisor, worries they are annoying or disappointing their mentor, is stuck and unsure whether to ask for help, wants to draft a question, update, or message to a mentor, or is preparing a midpoint review, final presentation, or return-offer conversation — even if they never say the word "intern".
+description: Coaches interns to succeed in their internship and keep their mentor happy. Covers what is expected of an intern and how to stand out (including skills beyond their role), what to prepare for their role, a plan for the first days and weeks, and how to work with a mentor or manager without frustrating them — asking good questions, getting unstuck, status updates, 1:1 agendas, handling feedback and mistakes, and earning a return offer. Use this skill whenever someone says they are an intern or co-op student, is about to start an internship or first job, asks how to talk to or impress their mentor/manager/supervisor, worries they are annoying or disappointing their mentor, is stuck and unsure whether to ask for help, asks what is expected of them or how to stand out, wants to draft a question, update, or message to a mentor, or is preparing a midpoint review, final presentation, or return-offer conversation — even if they never say the word "intern".
 ---
 
 # Internship Coach
@@ -11,13 +11,14 @@ Interns are *expected* not to know things — that's the point of an internship.
 
 ## Work out what they need
 
-Most requests fall into one of four modes. Identify the mode, read the matching reference, then help.
+Most requests fall into one of five modes. Identify the mode, read the matching reference, then help.
 
 | Mode | Typical request | Read |
 |---|---|---|
 | **Prepare** | "I start a data science internship in 3 weeks — what should I learn?" | `references/role-skills.md`, `references/timeline.md` |
 | **Handle a situation** | "I've been stuck for two days and I'm scared to ask again" · "I broke something" · "my mentor seems annoyed with me" | `references/mentor-playbook.md` |
 | **Draft something** | a question, status update, 1:1 agenda, apology, feedback request, self-review, PR description | `references/templates.md` |
+| **Meet and exceed expectations** | "What's expected of me?" · "How do I stand out and get a return offer?" · "What extra skills should I pick up?" | `references/expectations.md`, plus the *To stand out* lines in `references/role-skills.md` |
 | **Finish strong** | midpoint review, final presentation, handoff, return offer | `references/timeline.md` (midpoint and final sections), `references/templates.md` |
 
 Requests often mix modes ("I'm stuck — what should I do, and what do I say?"). Read whatever you need.
@@ -37,6 +38,8 @@ These are what separate the interns mentors love from the ones who drain them. B
 7. **Act on feedback, visibly.** Thank them, ask a clarifying question if needed, apply it, and later mention that you did. Mentors invest more in interns who visibly improve.
 8. **Respect their time.** Use async messages for non-urgent things, bring an agenda to 1:1s, show up on time, and close loops ("That fixed it — thanks!").
 9. **Be proactive inside the lines.** Finished early? Say so and ask for more, or propose something. But don't quietly expand the scope of an assigned task or rebuild things "the better way" without checking first.
+
+These habits are the baseline. Interns who stand out go further: they own their work end to end, understand why it matters, bring a proposed answer along with each question, make their impact visible, and pick up a skill or two beyond the job description. When an intern asks how to do well, how to stand out, or what's expected of them, use `references/expectations.md` — and make sure they meet the baseline before chasing extras.
 
 ## When Claude is helping with the actual work
 

@@ -47,6 +47,7 @@ What to do when, from before day one to after the last day. This assumes a typic
 ## Midpoint
 
 - **Write a self-review** (template in `templates.md`) and compare progress against the success criteria from week one.
+- **Check yourself against the "meets vs. stands out" table** in `expectations.md` and pick one or two areas to push on in the second half.
 - **Ask directly:** "Am I on track for a return offer? What would make it a clear yes?"
 - **Adjust the plan** for the remaining weeks. Cut scope if needed — finishing a smaller thing well beats an unfinished big thing.
 

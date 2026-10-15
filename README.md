@@ -6,6 +6,7 @@ Mentors rarely get upset because an intern doesn't know something — interns ar
 
 ## What it helps with
 
+- **Meeting and exceeding expectations** — what every intern is expected to do, a "meets vs. stands out" self-check, and extra skills beyond the job description that make an intern stand out.
 - **Preparing** — what to brush up on before day one, by role (software, data, ML, product, design, marketing, finance, hardware, research, and more).
 - **Working with a mentor** — when and how to ask questions, getting unstuck, status updates, 1:1s, taking feedback, owning mistakes, handling too much or too little work.
 - **Drafting messages** — help requests, status updates, 1:1 agendas, delay warnings, apologies, feedback asks, PR descriptions.
@@ -18,6 +19,7 @@ Mentors rarely get upset because an intern doesn't know something — interns ar
 - "I've been stuck on a bug for two days and I already asked my mentor once. What do I do?"
 - "Help me write a message telling my manager I'm going to miss Friday's deadline."
 - "My midpoint review is next week — can you help me write a self-review?"
+- "What do interns who get return offers do differently? I want to stand out."
 
 ## Install
 
@@ -67,7 +69,8 @@ skills/
     references/
       mentor-playbook.md  # working with a mentor, situation by situation
       templates.md        # ready-to-adapt messages and documents
-      role-skills.md      # what to prepare, by field
+      expectations.md     # what's expected of interns and how to stand out
+      role-skills.md      # what to prepare and stand-out extras, by field
       timeline.md         # what to do before day one through the last week
 ```
 

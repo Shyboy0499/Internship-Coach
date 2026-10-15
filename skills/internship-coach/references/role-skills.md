@@ -2,7 +2,7 @@
 
 What to brush up on before (and during) an internship, by field.
 
-**How to use this file:** pick the section that matches the intern's role and combine it with their job description, which is the most specific source available. Recommend a focused plan — three to five things for the weeks before they start — not everything listed here. Nobody expects an intern to arrive as an expert; the goal is less friction in week one.
+**How to use this file:** pick the section that matches the intern's role and combine it with their job description, which is the most specific source available. Recommend a focused plan — three to five things for the weeks before they start — not everything listed here. Nobody expects an intern to arrive as an expert; the goal is less friction in week one. The **To stand out** line in each section lists skills to grow *during* the internship, once the basics are covered — see also `expectations.md`.
 
 The single best prep move for any intern: ask the recruiter or manager, "Is there anything you'd recommend I learn or read before I start?" It gets the most accurate answer and makes a strong first impression. (There's an email template for this in `templates.md`.)
 
@@ -49,6 +49,8 @@ The single best prep move for any intern: ask the recruiter or manager, "Is ther
 
 **Common pitfalls:** giant pull requests; rewriting existing code into "your style"; skipping tests; submitting AI-generated code you haven't read, run, or understood; skipping the README and contribution guide; force-pushing shared branches; touching production without asking.
 
+**To stand out:** write a short design note before any non-trivial change; learn how the team deploys and monitors code (logs, dashboards, alerts); leave tests and docs better in every area you touch; understand the product and users your code serves.
+
 ## Data science and analytics
 
 **Brush up on:**
@@ -61,6 +63,8 @@ The single best prep move for any intern: ask the recruiter or manager, "Is ther
 **What impresses mentors:** sanity-checking data before analyzing it; stating assumptions; leading with the answer and then the evidence; reproducible notebooks; knowing which business decision the analysis feeds.
 
 **Common pitfalls:** analyzing before understanding the business question; ignoring nulls, duplicates, and outliers; overly complex models where a simple one would do; charts without a takeaway.
+
+**To stand out:** automate a report someone currently builds by hand; turn findings into a recommendation, not just a chart; learn where the data comes from upstream; pick up some Python or data-modeling skills (for example dbt) if you mostly use SQL.
 
 ## Machine learning and AI
 
@@ -75,6 +79,8 @@ The single best prep move for any intern: ask the recruiter or manager, "Is ther
 
 **Common pitfalls:** burning shared compute on untested large runs; not logging configs and seeds; claiming improvements without a proper evaluation; data leakage between train and test.
 
+**To stand out:** build clean, reusable evaluation tooling; learn the training infrastructure (job scheduling, profiling); write short summaries of relevant papers for the team; reproduce a baseline exactly before trying to beat it.
+
 ## Product management
 
 **Brush up on:**
@@ -87,6 +93,8 @@ The single best prep move for any intern: ask the recruiter or manager, "Is ther
 **What impresses mentors:** talking to real users; clear written specs; knowing the numbers; asking engineers and designers about constraints before promising anything.
 
 **Common pitfalls:** jumping to solutions before understanding the problem; committing engineers' time on their behalf; vague specs.
+
+**To stand out:** learn enough SQL to pull your own metrics; sit in on customer calls or read support tickets; write crisp decision docs; understand the engineering tradeoffs well enough to discuss them.
 
 ## Design (UX/UI)
 
@@ -101,6 +109,8 @@ The single best prep move for any intern: ask the recruiter or manager, "Is ther
 
 **Common pitfalls:** polishing too early; ignoring engineering constraints; taking critique personally.
 
+**To stand out:** build interactive prototypes; learn a little HTML and CSS to talk with engineers; run a quick usability test yourself; contribute a component or fix back to the design system.
+
 ## Marketing and communications
 
 **Brush up on:**
@@ -113,6 +123,8 @@ The single best prep move for any intern: ask the recruiter or manager, "Is ther
 
 **Common pitfalls:** publishing or posting anything externally without approval; ignoring the brand guidelines.
 
+**To stand out:** run a small, measurable experiment (say, two subject lines) and report the result; get comfortable with analytics and attribution; pick up basic video editing or email-template skills.
+
 ## Finance, accounting, consulting, and business
 
 **Brush up on:**
@@ -124,6 +136,8 @@ The single best prep move for any intern: ask the recruiter or manager, "Is ther
 **What impresses mentors:** numbers that tie out; checking your own work before sending; clean formatting; strict confidentiality.
 
 **Common pitfalls:** hard-coded numbers buried in models; unchecked arithmetic; sharing confidential material carelessly.
+
+**To stand out:** automate a manual spreadsheet process (Power Query, macros, or Python); learn to pull reports from the company's ERP yourself; understand the operational drivers behind the numbers; build a clean, reusable dashboard.
 
 ## Hardware, mechanical, and electrical engineering
 
@@ -138,6 +152,8 @@ The single best prep move for any intern: ask the recruiter or manager, "Is ther
 
 **Common pitfalls:** skipping safety training; reconfiguring a shared setup without telling anyone.
 
+**To stand out:** script test automation and data analysis in Python; learn the basics of the neighboring discipline (firmware, mechanical, or electrical); write test procedures someone else could follow.
+
 ## Research (academic or industry lab)
 
 **Brush up on:**
@@ -149,6 +165,8 @@ The single best prep move for any intern: ask the recruiter or manager, "Is ther
 **What impresses mentors:** a careful lab notebook; reproducible work; arriving at meetings with results *and* questions; reading beyond what was assigned.
 
 **Common pitfalls:** waiting to be told every next step; not recording failed experiments; messy data management.
+
+**To stand out:** write reusable analysis code; write up results clearly as you go rather than at the end; present at a lab meeting; learn a complementary method the lab uses.
 
 ## A role not listed here
 
