@@ -90,6 +90,9 @@ Add `--model haiku` (or `sonnet`, `opus`) to check the skill works across models
 ## Repository layout
 
 ```
+.github/
+  workflows/star-history.yml  # redraws the star chart daily and on each new star
+  scripts/star_history.py     # draws the chart from the repo's creation to today
 .claude-plugin/
   plugin.json             # Claude Code plugin manifest
   marketplace.json        # lets this repo be added as a plugin marketplace
@@ -112,13 +115,15 @@ LICENSE
 
 ## Star History
 
-<a href="https://star-history.com/#Shyboy0499/Internship-Coach&Date">
+<a href="https://github.com/Shyboy0499/Internship-Coach/stargazers">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Shyboy0499/Internship-Coach&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Shyboy0499/Internship-Coach&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Shyboy0499/Internship-Coach&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shyboy0499/Internship-Coach/star-history/star-history-dark.svg" />
+   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shyboy0499/Internship-Coach/star-history/star-history-light.svg" />
+   <img alt="Star history of Shyboy0499/Internship-Coach since December 2025" src="https://raw.githubusercontent.com/Shyboy0499/Internship-Coach/star-history/star-history-light.svg" />
  </picture>
 </a>
+
+The chart covers the repo's whole life, starting December 2025. A GitHub Action redraws it every day and whenever someone stars the repo.
 
 ## License
 
