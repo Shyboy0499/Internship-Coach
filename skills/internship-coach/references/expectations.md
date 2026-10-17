@@ -56,7 +56,7 @@ Useful for a midpoint self-review, or when an intern asks "am I doing well?"
 
 1. **Nail the baseline first.** Everything below only counts on top of it.
 2. **Understand the why.** Find out who uses your work and what goal it serves; ask "How will this be used?" Interns who connect their task to the team's goals make better decisions and ask better questions, and mentors notice immediately.
-3. **Own it end to end.** "It works on my machine" isn't done. Done means tests, docs, edge cases, a handoff, and a follow-up after it ships — someone else can use it without you.
+3. **Own it end to end.** "It works on my machine" isn't done. Done means tests, docs, edge cases, a handoff, and a follow-up after it ships — someone else can use it without you. See `delivering-work.md` for the full checklist.
 4. **Bring solutions, not just problems.** Pair every question or issue with a proposal. Even when the proposal is wrong, it shows judgment and makes the mentor's job easier.
 5. **Make your mentor's life easier.** Updates they can forward as-is, notes from meetings you both attend, small chores taken off their plate.
 6. **Leave things better than you found them.** Fix the onboarding doc you struggled with, write a setup guide for the next intern, automate a repetitive task (with permission). Low risk, highly visible, appreciated by everyone.

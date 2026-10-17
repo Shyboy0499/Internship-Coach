@@ -1,6 +1,6 @@
 ---
 name: internship-coach
-description: Coaches interns and co-op students to succeed and keep their mentor happy. Covers what is expected of them and how to stand out, what skills to prepare for their role, a plan for the first weeks, and how to work with a mentor or manager — asking good questions, getting unstuck, status updates, 1:1s, feedback, owning mistakes, weekly check-ins, and earning a return offer. Use this skill whenever someone is an intern or co-op, is about to start an internship or first job, or asks how to deal with their mentor, manager, or supervisor — including worrying they are annoying them, being stuck and unsure whether to ask for help, having made a mistake at work, being treated badly or inappropriately by a mentor, wanting to draft or check a question, update, or message to one, or preparing a midpoint review, final presentation, return-offer conversation, or resume bullets from their internship — even if they never say "intern".
+description: Coaches interns and co-op students to succeed and keep their mentor happy. Covers what is expected of them and how to stand out, skills to prepare for their role, the first weeks, working with a mentor or manager (questions, getting unstuck, updates, 1:1s, feedback, mistakes), delivering tasks end to end (decoding requirements, testing, demos, handoff), weekly check-ins, and earning a return offer. Use this skill whenever someone is an intern or co-op, is starting an internship or first job, or asks about working with their mentor, manager, or supervisor — including worrying they are annoying them, being stuck and unsure whether to ask, getting a task or requirements from their mentor and wondering what "done" means, having made a mistake at work, being treated badly or inappropriately by a mentor, drafting or checking a message to one, or preparing a midpoint review, final presentation, return-offer conversation, or resume bullets from their internship — even if they never say "intern".
 license: MIT
 ---
 
@@ -18,12 +18,13 @@ If there isn't one, and the intern is early in the internship, doing a weekly ch
 
 ## Work out what they need
 
-Most requests fall into one of six modes. Identify the mode, read the matching reference, then help.
+Most requests fall into one of seven modes. Identify the mode, read the matching reference, then help.
 
 | Mode | Typical request | Read |
 |---|---|---|
 | **Prepare** | "I start a data science internship in 3 weeks — what should I learn?" | `references/role-skills.md`, `references/timeline.md` |
 | **Handle a situation** | "I've been stuck for two days and I'm scared to ask again" · "I broke something" · "my mentor seems annoyed with me" · "I'm remote and feel invisible" | `references/mentor-playbook.md` |
+| **Plan and deliver a task** | "My mentor asked me to add a CSV export, 'should be quick' — how do I approach it?" · "Here's the ticket, what do I actually need to do?" · "How do I know when it's done?" | `references/delivering-work.md` |
 | **Draft something** | a question, status update, 1:1 agenda, apology, feedback request, self-review, PR description | `references/templates.md` |
 | **Meet and exceed expectations** | "What's expected of me?" · "How do I stand out and get a return offer?" · "What extra skills should I pick up?" | `references/expectations.md`, plus the *To stand out* lines in `references/role-skills.md` |
 | **Keep track** | "Let's do my weekly check-in" · "Help me write this week's update" · "Remember how my mentor likes to communicate" | `references/notebook.md`, `references/templates.md` |
@@ -48,6 +49,7 @@ These are what separate the interns mentors love from the ones who drain them. B
 7. **Act on feedback, visibly.** Thank them, ask a clarifying question if needed, apply it, and later mention that you did. Mentors invest more in interns who visibly improve.
 8. **Respect their time.** Use async messages for non-urgent things, bring an agenda to 1:1s, show up on time, and close loops ("That fixed it — thanks!").
 9. **Be proactive inside the lines.** Finished early? Say so and ask for more, or propose something. But don't quietly expand the scope of an assigned task or rebuild things "the better way" without checking first.
+10. **Deliver the whole thing, not just the function.** The unwritten rule: "add X" means X understood, built, tested, shown, documented, handed off, and announced. A working function is maybe half the job. When an intern brings a task, decode what's really being asked and lay out the full path to done — `references/delivering-work.md`.
 
 These habits are the baseline. Interns who stand out go further: they own their work end to end, understand why it matters, bring a proposed answer along with each question, make their impact visible, and pick up a skill or two beyond the job description. When an intern asks how to do well, how to stand out, or what's expected of them, use `references/expectations.md`. Open by naming the baseline in a sentence or two — even if they say they're already doing well — and say plainly that extras only count on top of it: interns who chase visibility while their core project slips are the ones who lose offers. Then give the stand-out moves — including asking the manager directly what would make a return offer a clear yes. Most interns never ask, and the answer tells them exactly what to aim at.
 
@@ -71,6 +73,7 @@ Norms vary by company, team, country, and remote versus in-person work. When adv
 - **Messages:** give the message ready to paste, in the right register for the channel (a chat message is short; an email gets a subject line). Keep it short — mentors skim. Add a one-line note on why it's built that way only when that teaches something.
 - **Plans and prep:** checklists grouped by week or priority, with concrete items ("work through joins and window functions in SQL") rather than vague ones ("learn SQL"). Keep pre-start plans small enough to actually finish.
 - **Situations:** (1) what is probably going on from the mentor's side, (2) exactly what to do now, (3) a draft message if one is needed.
+- **Task requests from a mentor:** the task brief from `references/delivering-work.md` — goal, stated and unstated requirements, questions to ask (with proposed answers), a plan with an early check-in, a definition-of-done checklist, and a demo plan — then a ready-to-send repeat-back message. Tailor every line to their actual task and keep it proportional: a small fix gets a five-line brief, not a project plan.
 - **Weekly check-ins:** three clearly labelled outputs — this week's work-log entry (Did → Result, Learned, Thanks owed), the update for the mentor in their preferred channel with blockers near the top, and one focus for next week drawn from feedback. Steps are in `references/notebook.md`.
 - **Resume bullets and work-log entries:** finished versions built only from facts the intern gave — no placeholders, no invented numbers. If a real number would make one stronger, suggest it separately.
 

@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: task-breakdown-analysis
+description: A vague analysis request; expect the hidden expectations of an analysis deliverable to be spelled out.
+tags: [deliver-task]
+execution:
+  prompt: |
+    I'm a data analyst intern. My manager said "can you look into why sign-ups dropped last week and let me know?" and that's literally all she said. What does she actually want from me, and what should I hand her?
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: decodes-the-ask
+    criteria: The response explains that "look into" means she wants an answer with evidence and a recommendation (not just charts or a list of what was checked), and suggests confirming a few specifics up front, such as the exact metric, time range, deadline, or who the findings are for.
+  - type: llm
+    name: analysis-definition-of-done
+    criteria: The response describes what a finished analysis includes - leading with the answer, sanity-checking the data, stating caveats or confidence, and saving the queries or notebook so the work can be rerun - and how to share it (for example a short write-up or message with a recommendation).

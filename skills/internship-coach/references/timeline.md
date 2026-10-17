@@ -38,7 +38,7 @@ What to do when, from before day one to after the last day. This assumes a typic
 ## Weeks two to four
 
 - **Settle into an update rhythm** with your mentor (see the mentor playbook, section 6).
-- **Put the project scope and milestones in writing** — a short plan your mentor approves.
+- **Put the project scope and milestones in writing** — a short plan your mentor approves (the task brief in `delivering-work.md` works well).
 - **Deliver something early and incrementally** rather than saving it all for a big reveal.
 - **Have one or two coffee chats a week** with people outside your immediate work.
 - **Ask for your first specific feedback** around week three.

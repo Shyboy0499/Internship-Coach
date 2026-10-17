@@ -40,6 +40,8 @@ My guess: [hypothesis, or what you'd try next]
 
 ## Clarifying a new task (repeat-back)
 
+For a bigger task, start from the full task brief in `delivering-work.md`.
+
 ```
 Thanks! To make sure I build the right thing:
 - Goal: [the task in your own words]

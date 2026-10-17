@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: task-breakdown-feature
+description: A coding task from the mentor; expect the whole path to done, not just how to write the code.
+tags: [deliver-task]
+execution:
+  prompt: |
+    my mentor just slacked me: "hey can you add a CSV export button to the orders report page? should be pretty quick, customers keep asking for it". I'm a swe intern, 4 weeks in. how should I approach this so I don't mess it up?
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: beyond-the-function
+    criteria: The response makes clear that done means more than the export working, and covers at least four of these for this task - edge cases such as empty or very large reports and special characters, automated tests, permissions on who can export, a PR with a clear description, a demo or screenshots, and telling the mentor or customers once it ships.
+  - type: llm
+    name: clarify-and-check-in
+    criteria: The response gives specific clarifying questions for this export (for example which columns or filters, file size limits, or who can export), ideally with proposed answers, and a plan that includes showing the mentor an early rough version, plus a short ready-to-send message to the mentor.
