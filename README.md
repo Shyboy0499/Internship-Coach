@@ -16,6 +16,7 @@ It works in Claude Code, the Claude apps, and the Agent SDK, as well as other ag
 - **Working with a mentor** — when and how to ask questions, getting unstuck, status updates, 1:1s, taking feedback, owning mistakes, handling too much or too little work, and making a remote internship work. Claude also spots common intern patterns (the silent struggler, the over-apologizer, the private perfectionist) and coaches the habit behind them.
 - **Keeping track** — with your OK, Claude keeps a short internship notebook (goals, how your mentor likes to communicate, feedback, a work log) so it remembers between conversations, plus a weekly check-in that writes your work-log entry and your update to your mentor.
 - **Delivering tasks end to end** — the unwritten rule that "add X" means X understood, built, tested, shown, documented, and handed off. Claude turns a request from your mentor into a task brief: what they really want, the questions to ask, a plan with an early check-in, a definition-of-done checklist, and a demo plan.
+- **When something breaks** — who to contact first and how: security slips (a phishing click, a leaked password or key, a lost laptop) go to IT or security within minutes, broken equipment to the IT helpdesk, a broken shared system to your mentor or the team's on-call — with a helpdesk ticket template and the first-ten-minutes checklist.
 - **Drafting messages** — help requests, status updates, 1:1 agendas, delay warnings, apologies, feedback asks, PR descriptions.
 - **Finishing strong** — midpoint self-review, final presentation, handoff doc, return-offer conversation, thank-yous, and turning the internship into resume bullets and interview stories.
 - **Knowing when it isn't about pleasing the mentor** — harassment, unsafe or unethical requests, or unfair treatment get routed to the right people instead.
@@ -28,6 +29,7 @@ It works in Claude Code, the Claude apps, and the Agent SDK, as well as other ag
 - "My mentor asked me to add a CSV export button — 'should be quick'. How do I approach it so I don't mess it up?"
 - "My midpoint review is next week — can you help me write a self-review?"
 - "What do interns who get return offers do differently? I want to stand out."
+- "I think I just typed my password into a fake login page and my mentor is on leave. What do I do?"
 - "It's Friday — let's do my weekly check-in."
 - "My internship just ended. Turn what I did into resume bullets."
 
@@ -109,6 +111,7 @@ skills/
       timeline.md         # what to do before day one through the last week
       notebook.md         # the internship notebook and the weekly check-in
       delivering-work.md  # decoding a task and delivering it end to end
+      when-something-breaks.md  # who to contact (mentor, IT, security, on-call) and how
     LICENSE.txt           # license copy that travels with the skill folder
 evals/                    # test cases for `claude plugin eval`
 LICENSE

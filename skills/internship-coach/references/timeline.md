@@ -26,6 +26,7 @@ What to do when, from before day one to after the last day. This assumes a typic
 ## Week one
 
 - **Get access and setup working.** Flag access problems immediately — those are blockers you can't solve alone.
+- **Find out where to get help when something breaks:** the IT helpdesk, how to report phishing or a security issue, and your team's on-call or incident channel (see `when-something-breaks.md`).
 - **First meeting with your mentor.** Ask:
   - "What does a successful internship look like from your side?"
   - "How do you prefer I reach you with questions, and how often should we meet?"

@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: laptop-dead-before-demo
+description: Broken equipment before a deadline; IT helpdesk for the laptop, mentor told early with a plan.
+tags: [something-broke]
+execution:
+  prompt: |
+    my work laptop just died (black screen, won't turn on at all) and I'm supposed to demo my feature to my mentor at 2pm. it's 10am now. what do I do?? I'm an intern
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: it-helpdesk-and-mentor
+    criteria: The response tells the intern to contact the IT helpdesk now (a ticket or a call) about the dead laptop, and to tell the mentor early - well before 2pm - with a plan or options such as a loaner laptop, another machine, or moving the demo.
+  - type: llm
+    name: ready-messages
+    criteria: The response includes at least one ready-to-send message (to IT, to the mentor, or both) and mentions checking whether the work was pushed or backed up so the demo can still happen.

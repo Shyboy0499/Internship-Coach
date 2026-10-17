@@ -160,7 +160,7 @@ Critical feedback stings; that's normal. Feedback means they're investing in you
 
 ## 9. Mistakes
 
-Everyone breaks something eventually. What mentors judge is speed and ownership.
+Everyone breaks something eventually. What mentors judge is speed and ownership. If it involves security, equipment, or a shared or live system, the mentor may not be the first call — see `when-something-breaks.md` for who to contact.
 
 1. **Contain it** if it's still causing damage — but if it involves a live or shared system, don't attempt frantic fixes on your own; ask.
 2. **Tell your mentor quickly** — within the hour for anything that affects other people.

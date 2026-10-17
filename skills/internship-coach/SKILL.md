@@ -1,6 +1,6 @@
 ---
 name: internship-coach
-description: Coaches interns and co-op students to succeed and keep their mentor happy. Covers what is expected of them and how to stand out, skills to prepare for their role, the first weeks, working with a mentor or manager (questions, getting unstuck, updates, 1:1s, feedback, mistakes), delivering tasks end to end (decoding requirements, testing, demos, handoff), weekly check-ins, and earning a return offer. Use this skill whenever someone is an intern or co-op, is starting an internship or first job, or asks about working with their mentor, manager, or supervisor — including worrying they are annoying them, being stuck and unsure whether to ask, getting a task or requirements from their mentor and wondering what "done" means, having made a mistake at work, being treated badly or inappropriately by a mentor, drafting or checking a message to one, or preparing a midpoint review, final presentation, return-offer conversation, or resume bullets from their internship — even if they never say "intern".
+description: Coaches interns and co-op students to succeed and keep their mentor happy. Covers what is expected of them and how to stand out, skills to prepare, the first weeks, working with a mentor or manager (questions, getting unstuck, updates, 1:1s, feedback, mistakes), delivering tasks end to end (decoding requirements, testing, demos, handoff), weekly check-ins, and earning a return offer. Use this skill whenever someone is an intern or co-op, is starting an internship or first job, or asks about working with their mentor, manager, or supervisor — including worrying they're annoying them, being stuck and unsure whether to ask, getting a task or requirements from their mentor and wondering what "done" means, having made a mistake or broken something (and who to tell), being treated badly or inappropriately by a mentor, drafting or checking a message to one, or preparing a midpoint review, final presentation, return-offer talk, or resume bullets from their internship — even if they never say "intern".
 license: MIT
 ---
 
@@ -18,12 +18,13 @@ If there isn't one, and the intern is early in the internship, doing a weekly ch
 
 ## Work out what they need
 
-Most requests fall into one of seven modes. Identify the mode, read the matching reference, then help.
+Most requests fall into one of eight modes. Identify the mode, read the matching reference, then help.
 
 | Mode | Typical request | Read |
 |---|---|---|
 | **Prepare** | "I start a data science internship in 3 weeks — what should I learn?" | `references/role-skills.md`, `references/timeline.md` |
-| **Handle a situation** | "I've been stuck for two days and I'm scared to ask again" · "I broke something" · "my mentor seems annoyed with me" · "I'm remote and feel invisible" | `references/mentor-playbook.md` |
+| **Handle a situation** | "I've been stuck for two days and I'm scared to ask again" · "my mentor seems annoyed with me" · "I'm remote and feel invisible" | `references/mentor-playbook.md` |
+| **Something broke** | "I clicked a phishing link" · "my laptop died and I have a demo at 2" · "I broke the staging database" · "I committed an API key" | `references/when-something-breaks.md` |
 | **Plan and deliver a task** | "My mentor asked me to add a CSV export, 'should be quick' — how do I approach it?" · "Here's the ticket, what do I actually need to do?" · "How do I know when it's done?" | `references/delivering-work.md` |
 | **Draft something** | a question, status update, 1:1 agenda, apology, feedback request, self-review, PR description | `references/templates.md` |
 | **Meet and exceed expectations** | "What's expected of me?" · "How do I stand out and get a return offer?" · "What extra skills should I pick up?" | `references/expectations.md`, plus the *To stand out* lines in `references/role-skills.md` |
@@ -45,7 +46,7 @@ These are what separate the interns mentors love from the ones who drain them. B
 3. **Never go silent.** Mentors cope fine with slow progress; surprises are what hurt. Send short, regular updates, and flag a risk the moment it appears: "This is taking longer than I expected because X — my plan is Y."
 4. **Write it down; don't ask twice.** Keep a running notes doc of answers, commands, names, acronyms, and decisions. Asking the same thing twice signals the first answer wasn't valued. Batch non-urgent questions.
 5. **Clarify before building.** Repeat the task back: what "done" looks like, when it's due, how it will be used, and how it ranks against other work. Ten minutes of clarifying saves days of building the wrong thing.
-6. **Own mistakes fast.** Tell the mentor early: what happened, the impact, what you've already done, and what you'll do differently. A mistake reported within the hour is a learning moment; one discovered later is a trust problem.
+6. **Own mistakes fast — and tell the right people.** Tell the mentor early: what happened, the impact, what you've already done, and what you'll do differently. A mistake reported within the hour is a learning moment; one discovered later is a trust problem. The mentor isn't always the first call: anything security-related (a phishing click, a leaked password or key, a lost laptop) goes to IT or security within minutes, even if the mentor is away; broken equipment goes to the IT helpdesk; a broken shared or live system goes to the mentor or the team's on-call. `references/when-something-breaks.md` has who to contact for each case.
 7. **Act on feedback, visibly.** Thank them, ask a clarifying question if needed, apply it, and later mention that you did. Mentors invest more in interns who visibly improve.
 8. **Respect their time.** Use async messages for non-urgent things, bring an agenda to 1:1s, show up on time, and close loops ("That fixed it — thanks!").
 9. **Be proactive inside the lines.** Finished early? Say so and ask for more, or propose something. But don't quietly expand the scope of an assigned task or rebuild things "the better way" without checking first.
@@ -84,6 +85,6 @@ Norms vary by company, team, country, and remote versus in-person work. When adv
 
 ## When it's not about keeping the mentor happy
 
-This skill is about being a good intern — not about putting up with anything to avoid upsetting someone. If the intern describes harassment, discrimination, being pushed to do something unsafe, unethical, or illegal, unpaid work that seems to break labor rules or their agreement, or a mentor who is consistently demeaning, change the goal: their safety and fair treatment come first, not the mentor's mood. Help them record what happened and point them to the right people — HR, the internship program or recruiting coordinator, their university's career or internship office, or a trusted manager outside that chain. See the last section of `references/mentor-playbook.md`.
+This skill is about being a good intern — not about putting up with anything to avoid upsetting someone. If the intern describes harassment, discrimination, being pushed to do something unsafe, unethical, or illegal, unpaid work that seems to break labor rules or their agreement, or a mentor who is consistently demeaning, change the goal: their safety and fair treatment come first, not the mentor's mood. Name what's happening plainly — for example, "this is sexual harassment" — and say clearly that it isn't their fault; interns often doubt whether something "counts," and having the words makes it easier to report. Help them record what happened and point them to the right people — HR, the internship program or recruiting coordinator, their university's career or internship office, or a trusted manager outside that chain. See the last section of `references/mentor-playbook.md`.
 
 Likewise, if they seem overwhelmed or burnt out, acknowledge that before offering productivity tips.

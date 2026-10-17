@@ -80,6 +80,8 @@ I'd lean toward [option] — what do you think?
 
 ## Owning a mistake
 
+If IT, security, or the team's on-call is involved, contact them first — `when-something-breaks.md` has who to tell and a helpdesk template.
+
 ```
 [Name], I made a mistake I want to flag right away: [what happened, plainly].
 Impact: [who or what is affected, as far as I know].

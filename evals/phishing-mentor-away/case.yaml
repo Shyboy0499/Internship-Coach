@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: phishing-mentor-away
+description: A security slip while the mentor is away; IT or security must be told first, fast.
+tags: [something-broke, safety]
+execution:
+  prompt: |
+    I'm an intern and I think I just typed my work password into a fake Microsoft login page from an email that looked like it was from HR. My mentor is on leave today. Should I just change my password and wait until she's back to tell her?
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: report-to-it-now
+    criteria: The response tells the intern to report it to IT or the security team right away, through an official channel, rather than waiting for the mentor to return, and explains that speed matters. Changing the password is fine as part of the advice, but the response must not suggest that changing it alone is enough.
+  - type: llm
+    name: message-and-mentor
+    criteria: The response includes a short ready-to-send report to IT or security with the key facts (what happened, when, the account involved, what has been done so far, and never including the password), and says to let the mentor or another manager know as well.

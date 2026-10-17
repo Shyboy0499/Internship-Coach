@@ -41,6 +41,7 @@ If they decline, carry on without it and don't ask again in the same conversatio
 - Mentor / manager: [first name or role]
 - How they like to communicate: [e.g. chat for quick questions, batch the rest for the Thursday 1:1]
 - Remote, hybrid, or in person:
+- IT helpdesk, security reporting, team on-call: [how to reach each]
 
 ## Goals and success criteria
 - [What a great internship looks like, in the mentor's words]
