@@ -11,8 +11,9 @@ The unwritten rule of internships: when a mentor asks for X, they mean **X, fini
 5. Definition of done, by type of work
 6. Testing beyond the happy path
 7. The demo
-8. Closing the loop
-9. The task brief (what to hand the intern)
+8. Getting reviewed
+9. Closing the loop
+10. The task brief (what to hand the intern)
 
 ---
 
@@ -157,7 +158,19 @@ Two to five minutes:
 
 Rehearse once, have test data ready, and keep a recording or screenshots as a backup in case the live version breaks. On async or remote teams, a 60-second screen recording in the PR or team channel does the same job.
 
-## 8. Closing the loop
+## 8. Getting reviewed
+
+Code review, design critique, and edits on a document all work the same way: the reviewer is helping you ship something better, and how you respond is part of what they judge.
+
+- **Make it easy to review.** Keep the change small, review it yourself first, explain what and why in the description, and point reviewers at the parts you're unsure about.
+- **Respond to every comment** — a fix, a short reason you disagree, or a question. Don't leave comments silently unanswered.
+- **Assume good intent.** Terse comments are usually just busy people. Never reply defensively; "Good catch, fixed" goes a long way.
+- **If you disagree, explain once, briefly, with your reasoning** — then go with the reviewer's call on their team's code, or ask your mentor to settle it.
+- **Ask when a comment is unclear:** "Do you mean X or Y?" beats guessing and getting it wrong twice.
+- **Learn the pattern.** If the same kind of comment comes up twice, add it to your own pre-review checklist so it doesn't come up a third time.
+- **Say when it's ready again** — re-request review, or post "addressed all comments" — rather than waiting for the reviewer to notice.
+
+## 9. Closing the loop
 
 - Update the ticket or tracker and link the PR or document.
 - Message your mentor: what shipped, where it lives, how it was tested, and anything left.
@@ -165,7 +178,7 @@ Rehearse once, have test data ready, and keep a recording or screenshots as a ba
 - Turn follow-ups into tickets, not mental notes.
 - A week later, check it's being used and working. ("Checked the logs: 40 exports this week, no errors.") Few interns do this, and mentors notice.
 
-## 9. The task brief (what to hand the intern)
+## 10. The task brief (what to hand the intern)
 
 When an intern brings a request from their mentor, turn it into this brief, tailored to their actual task, followed by a ready-to-send repeat-back message (section 3).
 

@@ -166,6 +166,8 @@ Week of [date]
 
 ## Final presentation outline
 
+For story, slides, rehearsal, and Q&A, see `presenting.md`.
+
 Aim for 8–12 minutes plus questions. Rehearse once with the mentor if possible.
 
 ```
@@ -192,6 +194,8 @@ Who knows the most about it after I leave: [names]
 
 ## Return-offer conversation
 
+For how decisions are made, what to do with the answer, and reference requests, see `return-offer.md`.
+
 Raise it around the midpoint, not only in the last week.
 
 ```
@@ -211,12 +215,17 @@ Build these from the work log or notebook — real outcomes only, never invented
 
 Give finished bullets first, using only the facts the intern provided, so they can paste them straight in. Then, separately, point out where a real number they could look up would make a bullet stronger.
 
+Worked example — what the intern said: "I built a dashboard the support team uses every morning, automated a weekly report that took my manager about 3 hours, and presented a refund analysis that led to a policy change."
+
+Finished bullets (no brackets, nothing added that they didn't say):
+
 ```
-- Built [what] using [tools], [result — e.g. cutting weekly report prep from 3 hours to 10 minutes].
-- Analyzed [data or problem] and presented [finding] to [audience], informing [decision].
-- Automated [manual process], saving the team [time] per [week/month].
-- Shipped [feature or fix] used by [users/teams], [effect — e.g. reducing support tickets by 20%].
+- Built a dashboard the support team now uses every morning to start their day.
+- Automated a weekly report in Python, saving my manager about 3 hours of manual work each week.
+- Analyzed refund requests and presented findings to operations leads, leading to a change in the refund policy.
 ```
+
+Then, separately: "If you know how many people use the dashboard, or what the policy change achieved, adding that number would make these stronger."
 
 If the real numbers are confidential, use relative terms ("cut processing time by about 90%", "3x faster") and check with the manager what's fine to share. Never include customer data, unreleased figures, or internal project code names without permission.
 

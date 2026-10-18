@@ -25,6 +25,8 @@ What to do when, from before day one to after the last day. This assumes a typic
 
 ## Week one
 
+For setup, learning the codebase or domain, and the team's rhythms (standups, chat, code review), see `ramping-up.md`.
+
 - **Get access and setup working.** Flag access problems immediately — those are blockers you can't solve alone.
 - **Find out where to get help when something breaks:** the IT helpdesk, how to report phishing or a security issue, and your team's on-call or incident channel (see `when-something-breaks.md`).
 - **First meeting with your mentor.** Ask:
@@ -56,8 +58,8 @@ What to do when, from before day one to after the last day. This assumes a typic
 
 - **Finish and polish** rather than starting new things.
 - **Write a handoff doc:** what you did, where it lives, how to run it, what's left (template in `templates.md`).
-- **Prepare the final presentation** and do a dry run with your mentor.
-- **Have the return-offer conversation** if you haven't already.
+- **Prepare the final presentation** and do a dry run with your mentor (see `presenting.md`).
+- **Have the return-offer conversation** if you haven't already, and ask for references while your work is fresh (see `return-offer.md`).
 - **Say thank you** to the people who helped, specifically. Connect on LinkedIn, and ask your mentor whether they'd be a reference.
 - **Offboard properly:** return equipment and follow the company's checklist.
 

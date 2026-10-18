@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: final-presentation-qa
+description: A final presentation to the team and a director; expect a story structure, rehearsal, and Q&A handling.
+tags: [present]
+execution:
+  prompt: |
+    I have a 10-minute final intern presentation to my whole team and our director next Friday. I built an internal dashboard that the support team now uses every morning. I'm honestly terrified of the Q&A part. How should I prepare?
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: story-structure
+    criteria: The response gives a structure for the 10 minutes that tells a story (problem, why it matters, what was built, the result or impact such as the support team's daily use, what's next) rather than a week-by-week task list, ideally with rough timings and time left for questions.
+  - type: llm
+    name: qa-and-rehearsal
+    criteria: The response covers preparing for likely questions, handling questions it can't answer honestly (for example "I don't know, I'll find out and follow up" instead of bluffing), and rehearsing out loud or doing a dry run with the mentor.

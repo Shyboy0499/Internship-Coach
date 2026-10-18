@@ -64,7 +64,7 @@ Useful for a midpoint self-review, or when an intern asks "am I doing well?"
 8. **Share what you learn.** A short write-up or demo at a team meeting, or an answer to another intern's question in the team channel. Teaching shows mastery.
 9. **Build relationships beyond your mentor.** Return-offer decisions usually involve more people than your mentor. Coffee chats across the team, and with neighboring teams, help.
 10. **Ask for a stretch** once your core project is clearly on track: "I have some capacity — is there something more challenging I could take on?"
-11. **Ask what a clear yes looks like.** Around the midpoint, ask the manager directly: "What would make a return offer a clear yes?" Most interns never ask; the answer tells you exactly what to aim at.
+11. **Ask what a clear yes looks like.** Around the midpoint, ask the manager directly: "What would make a return offer a clear yes?" Most interns never ask; the answer tells you exactly what to aim at. More in `return-offer.md`.
 12. **Be good to work with.** Curious, positive, humble, dependable. Attitude counts for more than most interns expect.
 
 ## 5. Skills beyond the role: knowing how to do more

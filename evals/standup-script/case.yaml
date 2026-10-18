@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: standup-script
+description: The intern doesn't know what to say in standup; expect a short, specific script with blockers called out.
+tags: [ramp-up]
+execution:
+  prompt: |
+    what am I even supposed to say in standup?? every day I just mumble "still working on my ticket" and move on. I'm a backend intern, currently adding rate limiting to our public API and waiting on someone to give me access to the staging Redis.
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: specific-standup-script
+    criteria: The response gives a short standup structure (such as yesterday, today, blockers) and a filled-in example using the intern's real situation (the rate limiting work), stated as concrete progress rather than "still working on it".
+  - type: llm
+    name: blocker-called-out
+    criteria: The example or advice makes the staging Redis access blocker explicit, saying what is needed and from whom, and encourages raising blockers clearly in standup rather than glossing over them.

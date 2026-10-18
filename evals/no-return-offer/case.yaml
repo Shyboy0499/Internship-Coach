@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: no-return-offer
+description: The intern just learned there is no return offer; expect empathy, finishing strong, feedback, and a reference ask.
+tags: [return-offer]
+execution:
+  prompt: |
+    I just found out I'm not getting a return offer. My manager said it's because of headcount, not my work. I'm honestly gutted. I have two weeks left — should I just quietly finish and leave?
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: empathy-and-finish-strong
+    criteria: The response acknowledges the disappointment before giving advice, and recommends finishing the last two weeks strongly (for example a clean handoff and good final work) rather than quietly checking out, explaining that the same people can still help later.
+  - type: llm
+    name: feedback-and-reference
+    criteria: The response recommends asking for feedback and asking the manager or mentor for a reference (and possibly referrals or staying in touch), and includes at least one ready-to-send message.

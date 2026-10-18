@@ -1,0 +1,21 @@
+schema_version: "1.0"
+name: ramp-up-big-codebase
+description: A new SWE intern facing a huge codebase; expect concrete ways to learn it and a ramp-up plan.
+tags: [ramp-up]
+execution:
+  prompt: |
+    I start my first software engineering internship on Monday. The team works on a big Java monolith (something like 500k lines) and I've never worked on a codebase that size. How do I get up to speed without bugging my mentor every five minutes?
+  allowed_tools: [Read, Glob, Grep, Skill]
+graders:
+  - type: tool_used
+    name: uses-internship-coach-skill
+    tool: Skill
+    input_match: internship-coach
+    min: 1
+    arm: with-only
+  - type: llm
+    name: concrete-codebase-techniques
+    criteria: The response gives at least four concrete techniques for learning a large codebase, such as running it locally first, tracing one real request end to end, reading the tests, using git history or blame, following the existing conventions, and shipping a tiny first change through the whole review and deploy process.
+  - type: llm
+    name: plan-and-asking-balance
+    criteria: The response gives a short plan for the first weeks (for example week by week, or a first-30-days checklist) and addresses the worry about bugging the mentor with a concrete approach such as timeboxing, batching questions, keeping notes, or using docs and teammates.
